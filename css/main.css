@@ -97,6 +97,7 @@ body {
   font-size: 1em;
   text-align: left;
   text-align: left;
+  color: #e2e3ed;
 }
  
 ul, 
@@ -202,7 +203,6 @@ header nav ul {
 footer {
   flex-direction: column;
   text-align: center;
-  color:#fff;
 }
 
 footer p {
@@ -258,7 +258,6 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  color: #fff;
   background-color: #527158;
   font-style: normal;
 }
@@ -324,7 +323,6 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  color:#fff;
   background-color: #2a423a;
 }
 
@@ -348,7 +346,6 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
-  color: #fff;
 }
 
 .contact-section {
@@ -357,7 +354,6 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
-  color: #fff;
 }
 
 .contact-content p {
@@ -374,7 +370,6 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
-  color: #fff;
 }
 
 .faq .content-wrapper {
