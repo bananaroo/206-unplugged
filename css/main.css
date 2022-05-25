@@ -185,11 +185,11 @@ header figure {
 }
 
 header nav {
-  display: flex;
+  display: grid;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 65%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
