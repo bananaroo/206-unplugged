@@ -721,6 +721,10 @@ input[type=button] {
     TABLET FAQ Page
   ============================================== */
 
+  header nav ul li {
+    padding: 10px;
+  }
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
