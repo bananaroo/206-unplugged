@@ -102,6 +102,7 @@ body {
 ul, 
 ol {
  list-style-type: none;
+ margin: 0;
 }
  
 a {
@@ -226,13 +227,20 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  margin: 20px 0;
 }
 
 footer .copyright {
@@ -324,14 +332,14 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
-}
-
-.features i {
-	font-size: 3.75em;
-        margin-bottom: 40px;
 }
 
 /* MOBILE Reviews */
@@ -614,6 +622,10 @@ input[type=button] {
     text-align: center;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* TABLET Reviews */
   
   .reviews article {
@@ -660,6 +672,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
