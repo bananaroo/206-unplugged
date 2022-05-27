@@ -727,6 +727,7 @@ input[type=button] {
 
   .faq .content-wrapper {
     justify-content: space-between;
+    padding: 40px 0 50px 0;
   }
 
   .faq-content {
