@@ -544,6 +544,7 @@ input[type=button] {
 
   img {
     width: 50%;
+    float: left;
   }
 
   /* TABLET HEADER */
@@ -614,11 +615,11 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 45%;
+    flex-basis: 50%;
   }
 
   .features .features-item-description {
-    width: 70%;
+    width: 62%;
     text-align: center;
   }
 
@@ -630,7 +631,7 @@ input[type=button] {
   
   .reviews article {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .reviews h2 {
@@ -639,7 +640,8 @@ input[type=button] {
 
   .reviews article figure,
   .reviews article div {
-   width: 49%;
+   width: 100%;
+   margin-left: 20px;
   }
 
   .reviews h3 {
